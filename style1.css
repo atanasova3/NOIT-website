@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #0c356e;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    color: #f7a60f;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.dropdown-button {
+    background-color: #0c356e;
+    color:white ;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.dropdown-button:hover {
+    background-color: #0a2b5a;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: hsl(15, 90%, 49%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: #0c356e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f7a60f;
+    color: #f7a60f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color:#f7a60f ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    
+}
+
+.footer-authors {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+footer p {
+    margin: 5px 0 0;
+}
+.dropdown-content {
+    display: none; /* Hide the dropdown initially */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show the dropdown menu when hovering over the dropdown */
+}
+
+.dropdown-button {
+    cursor: pointer;
+}
